@@ -12,7 +12,7 @@
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ## Figma
 
-[Personal Website]([https://www.figma.com/](https://www.figma.com/design/5QnHHyFBUAW723m7nYIXaj/Personal-Website?node-id=0-1&p=f&t=ZlSYRyBGLD1VQYOL-0))
+[Personal Website]([https://www.figma.com/](https://www.figma.com/design/5QnHHyFBUAW723m7nYIXaj/Personal-Website?node-id=0-1&p=f&t=ZlSYRyBGLD1VQYOL-0)
 
 ## Node.js
 
