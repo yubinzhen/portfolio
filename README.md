@@ -1,4 +1,4 @@
-# ACM UCR Website Template
+# Yubin Zhen's Portfolio
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23407ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -10,6 +10,7 @@
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
 ## Figma
 
 [Personal Website](https://www.figma.com/design/5QnHHyFBUAW723m7nYIXaj/Personal-Website?node-id=0-1&p=f&t=ZlSYRyBGLD1VQYOL-0)
