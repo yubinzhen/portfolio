@@ -1,7 +1,15 @@
+"use client";
+
+import NavBar from "@/components/navBar";
+import Intro from "@/components/intro";
+import Experience from "@/components/experience";
+
 const Home = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Hello World
+    <div className="bg-portfolio-darkgray font-portfolio-poppins">
+      <NavBar />
+      <Intro />
+      <Experience />
     </div>
   );
 };

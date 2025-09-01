@@ -1,0 +1,44 @@
+"use client";
+
+import Image from "next/image";
+import profilePic from "@/public/profilePic.webp";
+
+const Intro = () => {
+  return (
+    <div className="flex flex-col items-center">
+      <Image src={profilePic} alt="Profile Picture" className="mt-20 w-1/8" />
+
+      <div className="text-portfolio-white mt-8 text-4xl font-bold">
+        Hello, I'm Yubin Zhen!
+      </div>
+
+      <div className="text-portfolio-gray mt-3 w-1/2 text-center text-lg">
+        I am a Computer Science major at University of California Riverside,
+        with a strong foundation in programming, software development and
+        problem solving. I am eager to learn new things and am passionate about
+        creating projects that will solve real-world challenges. I strive for
+        new experiences and collaborating with others to allow me to grow as a
+        developer/person.
+      </div>
+
+      <div className="mt-10 flex gap-5">
+        <a
+          href="/Resume.pdf"
+          download
+          className="bg-portfolio-white text-portfolio-black border-portfolio-white hover:text-portfolio-white rounded-full border px-6 py-3 font-semibold transition-colors duration-300 hover:bg-transparent"
+        >
+          Resume
+        </a>
+        <a
+          href="/CV.pdf"
+          download
+          className="text-portfolio-white border-portfolio-white hover:bg-portfolio-white hover:text-portfolio-black rounded-full border bg-transparent px-6 py-3 font-semibold transition-colors duration-300"
+        >
+          CV
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Intro;
