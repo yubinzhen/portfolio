@@ -5,13 +5,13 @@ import experience1 from "@/public/experience1.webp";
 
 const Experience = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div id="experience" className="flex flex-col items-center">
       <div className="mt-20 flex flex-col items-center text-3xl font-bold text-blue-400">
         Experience
       </div>
-      <Image src={experience1} alt="Experience 1" className="w-1/2" />
+      <Image src={experience1} alt="Experience 1" className="w-2/4" />
 
-      <div className="text-portfolio-gray text-l w-5/12 text-left">
+      <div className="text-portfolio-gray text-l w-5/11 text-left">
         <li>
           {" "}
           Develop various frontend components to display static information and

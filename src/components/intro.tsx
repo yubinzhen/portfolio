@@ -6,7 +6,7 @@ import profilePic from "@/public/profilePic.webp";
 const Intro = () => {
   return (
     <div className="flex flex-col items-center">
-      <Image src={profilePic} alt="Profile Picture" className="mt-20 w-1/8" />
+      <Image src={profilePic} alt="Profile Picture" className="mt-25 w-1/8" />
 
       <div className="text-portfolio-white mt-8 text-4xl font-bold">
         Hello, I'm Yubin Zhen!

@@ -2,8 +2,8 @@
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="mt-20 flex flex-col items-center text-3xl font-bold text-blue-400">
+    <div id="skills" className="flex flex-col items-center">
+      <div className="mt-15 flex flex-col items-center text-3xl font-bold text-blue-400">
         Skills
       </div>
 
