@@ -2,17 +2,27 @@
 
 import Image from "next/image";
 import profilePic from "@/public/profilePic.webp";
+import { motion } from "motion/react";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col items-center">
-      <Image src={profilePic} alt="Profile Picture" className="mt-25 w-1/8" />
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: 0.4 }}
+      className="flex flex-col items-center"
+    >
+      <Image
+        src={profilePic}
+        alt="Profile Picture"
+        className="mt-20 w-32 sm:w-40 md:w-48 lg:w-56"
+      />
 
-      <div className="text-portfolio-white mt-8 text-4xl font-bold">
+      <div className="text-portfolio-white mt-8 text-2xl font-bold sm:text-3xl md:text-4xl">
         Hello, I'm Yubin Zhen!
       </div>
 
-      <div className="text-portfolio-gray mt-3 w-1/2 text-center text-lg">
+      <div className="text-portfolio-gray mt-3 w-1/2 text-center text-sm sm:text-base md:text-lg">
         I am a Computer Science major at University of California Riverside,
         with a strong foundation in programming, software development and
         problem solving. I am eager to learn new things and am passionate about
@@ -37,7 +47,7 @@ const Intro = () => {
           CV
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

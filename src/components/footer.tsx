@@ -13,10 +13,13 @@ const Footer = () => {
       className="bg-portfolio-black text-portfolio-white mt-20 flex w-full items-center justify-between px-8 py-5"
     >
       <div className="flex items-center gap-2">
-        <Mail className="h-6 w-6 text-white" />
+        <a href="mailto:yubinzhen020105@gmail.com">
+          <Mail className="h-6 w-6 text-white" />
+        </a>
+
         <a
           href="mailto:yubinzhen020105@gmail.com"
-          className="text-sm hover:text-blue-400 md:text-base"
+          className="hidden text-sm hover:text-blue-400 sm:block md:text-base"
         >
           yubinzhen020105@gmail.com
         </a>

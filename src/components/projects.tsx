@@ -6,6 +6,7 @@ import pokemonProject from "@/public/pokemonProject.webp";
 import quizMakerProject from "@/public/quizMakerProject.webp";
 import aimlProject from "@/public/aimlProject.webp";
 import ptsoProject from "@/public/ptsoProject.webp";
+import { motion } from "motion/react";
 
 const projects = [
   {
@@ -50,7 +51,13 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="text-portfolio-white w-full py-20">
+    <motion.div
+      id="projects"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: 0.4 }}
+      className="text-portfolio-white w-full py-20"
+    >
       <div className="mb-10 text-center text-3xl font-bold text-blue-400">
         Projects
       </div>
@@ -82,7 +89,7 @@ const Projects = () => {
           </Link>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
