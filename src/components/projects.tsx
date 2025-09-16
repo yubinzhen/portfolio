@@ -6,6 +6,7 @@ import pokemonProject from "@/public/pokemonProject.webp";
 import quizMakerProject from "@/public/quizMakerProject.webp";
 import aimlProject from "@/public/aimlProject.webp";
 import ptsoProject from "@/public/ptsoProject.webp";
+import tsuProject from "@/public/tsuProject.webp";
 import { motion } from "motion/react";
 
 const projects = [
@@ -13,7 +14,7 @@ const projects = [
     title: "Thai Student Union",
     description:
       "Developed and launched UCR’s Thai Student Union website in collaboration with 10 developers.",
-    image: ptsoProject,
+    image: tsuProject,
     link: "https://github.com/acm-ucr/tsu-website",
   },
 
