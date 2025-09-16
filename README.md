@@ -13,7 +13,7 @@
 
 ## Figma
 
-[Personal Website](https://www.figma.com/design/5QnHHyFBUAW723m7nYIXaj/Personal-Website?node-id=0-1&p=f&t=ZlSYRyBGLD1VQYOL-0)
+[Personal Website]()
 
 ## Node.js
 
