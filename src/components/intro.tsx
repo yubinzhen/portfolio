@@ -40,7 +40,7 @@ const Intro = () => {
           Resume
         </a>
         <a
-          href="cv.pdf"
+          href="yubinzhencv.pdf"
           target="_blank"
           className="text-portfolio-white border-portfolio-white hover:bg-portfolio-white hover:text-portfolio-black rounded-full border bg-transparent px-6 py-3 font-semibold transition-colors duration-300"
         >
