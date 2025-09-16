@@ -33,8 +33,7 @@ const Intro = () => {
 
       <div className="mt-10 flex gap-5">
         <a
-          href="resume.pdf"
-          download
+          href="yubinzhenresume.pdf"
           target="_blank"
           className="bg-portfolio-white text-portfolio-black border-portfolio-white hover:text-portfolio-white rounded-full border px-6 py-3 font-semibold transition-colors duration-300 hover:bg-transparent"
         >
@@ -42,7 +41,6 @@ const Intro = () => {
         </a>
         <a
           href="cv.pdf"
-          download
           target="_blank"
           className="text-portfolio-white border-portfolio-white hover:bg-portfolio-white hover:text-portfolio-black rounded-full border bg-transparent px-6 py-3 font-semibold transition-colors duration-300"
         >

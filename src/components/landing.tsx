@@ -30,9 +30,10 @@ const Landing = () => {
 
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-portfolio-black z-10 rounded-lg p-6">
-          <h1 className="text-portfolio-white text-4xl font-extrabold drop-shadow-lg sm:text-5xl md:text-6xl lg:text-7xl">
+          <div className="text-portfolio-white text-4xl font-extrabold drop-shadow-lg sm:text-5xl md:text-6xl lg:text-7xl">
             {displayedText}
-          </h1>
+            <span className="animate-pulse">|</span>
+          </div>
         </div>
       </div>
     </div>
